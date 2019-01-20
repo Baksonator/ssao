@@ -1,1 +1,1 @@
-# ssao
+The camera can be moved around using WASD and the arrow keys. The effect can be tweaked using QERT, QE will tweak the radius, RT will tweak the bias. The space key can be used to turn the effect on or off, to see the difference. Z and X will move the wall behind the model, demonstrating the range check part of the technique.
