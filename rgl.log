@@ -1,0 +1,37 @@
+  0.000 | [RGL] Startup...
+  0.020 | [RGL] Current video mode : 1920 x 1080
+  0.020 | [RGL] Going for video mode 1280 x 720 (windowed)
+  0.020 | [RGL] Using 4xMSAA for antialiasing
+  0.020 | [RGL] Z-buffer depth: 24 bits
+  0.020 | [RGL] Trying to set OpenGL context version 3.2 (mask = 0x0, flags = 0x0)
+  0.721 | [RGL] VSync ON
+  0.721 | [RGL] Renderer : Intel(R) HD Graphics 620
+  0.721 | [RGL] Version  : 3.2.0 - Build 23.20.16.4973
+  0.721 | [RGL] Vendor   : Intel
+  0.721 | [RGL] Max HW tex size : 16384
+  0.721 | [RGL] Max HW cubemap size : 16384
+  0.721 | [RGL] Fragment texture units : 32
+  0.721 | [RGL] Vertex texture units : 32
+  0.752 | [RGL] Simple shader ID = 3
+  0.768 | [RGL] GUI shader ID = 6
+  0.779 | [RGL] Color shader ID = 9
+  0.789 | [RGL] OpenGL init ok, window opened
+  0.790 | [RGL] Init done, now running
+  0.790 | [RGL] System init done
+  1.957 | [RGL] Loaded shader program (shaders/geometry-vert.glsl / shaders/geometry-frag.glsl)
+  1.957 | [RGL] Game shader 'geometry' loaded
+  2.089 | [RGL] Loaded shader program (shaders/ssao-vert.glsl / shaders/ssao-frag.glsl)
+  2.089 | [RGL] Game shader 'ssao' loaded
+  2.281 | [RGL] Loaded shader program (shaders/blur-vert.glsl / shaders/blur-frag.glsl)
+  2.281 | [RGL] Game shader 'blur' loaded
+  2.346 | [RGL] Loaded shader program (shaders/lighting-vert.glsl / shaders/lighting-frag.glsl)
+  2.346 | [RGL] Game shader 'lighting' loaded
+  2.402 | [RGL] Loaded shader program (shaders/postprocess-vert.glsl / shaders/postprocess-frag.glsl)
+  2.402 | [RGL] Game shader 'postprocess' loaded
+  4.383 | [RGL] Skybox textures loaded (textures/SnowForest)
+  4.973 | [RGL] Model 'models/nanosuit3.obj' loaded (57174 vertices)
+  4.987 | [RGL] Model 'models/wall.obj' loaded (36 vertices)
+  4.997 | Framebuffer je OK
+  5.021 | Framebuffer je OK
+105.416 | [RGL] User main done
+105.512 | [RGL] Goodbye!
