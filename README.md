@@ -15,7 +15,7 @@ I used 5 shaders to achieve SSAO, and those are:
 4. Lighting shader - The shader that applies the occlusion factors to the lighting equatio. All we have to do is multiply the per-fragment ambient occlusion factor to the lighting's ambient component
 5. Postprocessing shader- Shader that lets us turn the effect on or off
 
-*This project was made possible largely t hanks to information in the following article: https://learnopengl.com/Advanced-Lighting/SSAO*
+*This project was made possible largely thanks to information in the following article: https://learnopengl.com/Advanced-Lighting/SSAO*
 
 ## Results
 
