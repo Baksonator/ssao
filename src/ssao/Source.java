@@ -2,6 +2,11 @@ package ssao;
 
 import static org.lwjgl.openal.AL10.*;
 
+/**
+ * Class for playing sounds
+ * @author Bogdan
+ *
+ */
 public class Source {
 
 	private int sourceId;

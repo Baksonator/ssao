@@ -9,6 +9,10 @@ import rafgl.jglm.Vec3;
 
 public class Util {
 
+	/**
+	 * Kernel sampling
+	 * @return Kernel buffer
+	 */
 	public static FloatBuffer kernel() {
 		FloatBuffer kernelBuffer = BufferUtils.createFloatBuffer(8 * 8 * 3);
 		Random r = new Random(Double.doubleToLongBits(Math.random()));
@@ -28,10 +32,21 @@ public class Util {
 		return kernelBuffer;
 	}
 	
+	/**
+	 * Linear interpolation
+	 * @param a
+	 * @param b
+	 * @param f
+	 * @return
+	 */
 	public static float lerp(float a, float b, float f) {
 		return a + f * (b - a);
 	}
 	
+	/**
+	 * Noise for kernel rotation
+	 * @return Noise buffer
+	 */
 	public static FloatBuffer noise() {
 		FloatBuffer noiseBuffer = BufferUtils.createFloatBuffer(4 * 4 * 3);
 		Random r = new Random(Double.doubleToLongBits(Math.random()));

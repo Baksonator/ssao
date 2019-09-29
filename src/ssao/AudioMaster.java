@@ -9,6 +9,11 @@ import org.lwjgl.LWJGLException;
 import org.lwjgl.openal.AL;
 import org.lwjgl.util.WaveData;
 
+/**
+ * Class for handling the audio effects
+ * @author Bogdan
+ *
+ */
 public class AudioMaster {
 
 	private static List<Integer> buffers = new ArrayList<>();

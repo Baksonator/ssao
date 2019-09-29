@@ -61,6 +61,9 @@ public class MainFrame {
 	    this.source = source;
 	}
 	
+	/**
+	 * Initialize all shaders, set environment, models and camera
+	 */
 	private void init() {
 		shaders = new GameShader[5];
 		
@@ -96,6 +99,9 @@ public class MainFrame {
 		wall.yaw = RGL.HALF_PIf;
 	}
 	
+	/**
+	 * Generate all needed textures and framebuffers
+	 */
 	private void glGenerates() {
 		geometryFramebuffer = glGenFramebuffers();
 		glBindFramebuffer(GL_FRAMEBUFFER, geometryFramebuffer);
@@ -135,10 +141,10 @@ public class MainFrame {
 	    switch(status)
 	    {
 	       case GL_FRAMEBUFFER_COMPLETE:
-	    	   RGL.log("Framebuffer je OK");
+	    	   RGL.log("Framebuffer is OK");
 	    	   break;
 	       default:
-	    	   RGL.log("Framebuffer nije uspjesno kreiran");
+	    	   RGL.log("Framebuffer has not been successfully created");
 	    	   return;
 	    }
 
@@ -199,10 +205,10 @@ public class MainFrame {
 	    switch(status1)
 	    {
 	       case GL_FRAMEBUFFER_COMPLETE:
-	    	   RGL.log("Framebuffer je OK");
+	    	   RGL.log("Framebuffer is OK");
 	    	   break;
 	       default:
-	    	   RGL.log("Framebuffer nije uspjesno kreiran");
+	    	   RGL.log("Framebuffer has not been successfully created");
 	    	   return;
 	    }
 	}
